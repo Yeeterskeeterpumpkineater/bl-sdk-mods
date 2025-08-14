@@ -115,8 +115,9 @@ class MeleeEnhancement(SDKMod):
 
             SilenceTheVoices_SkillDefinition.SkillEffectPresentations[1] = SelfHitPresentation
 
-            SilenceTheVoices_SkillDefinition.SkillEffectDefinitions[0].PerGradeUpgrade.BaseValueConstant = -0.013333333
-            SilenceTheVoices_SkillDefinition.SkillEffectDefinitions[0].PerGradeUpgradeInterval = 1
+            SilenceTheVoices_SkillDefinition.SkillEffectDefinitions[0].PerGradeUpgrade.BaseValueConstant = 0.0
+            SilenceTheVoices_SkillDefinition.SkillEffectDefinitions[0].PerGradeUpgrade.BaseValueAttribute = None
+            SilenceTheVoices_SkillDefinition.SkillEffectDefinitions[0].PerGradeUpgradeInterval = 0
 
             BuzzaxeExplosion = FindObject(
                 "Behavior_Explode",
